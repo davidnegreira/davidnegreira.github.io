@@ -17,8 +17,8 @@
       <pubDate>Wed, 15 Jan 2020 00:00:00 +0000</pubDate>
       
       <guid>/posts/symfony-upgrade/</guid>
-      <description>symfony crea a traves de recipes archivos basicos + public/index.php + config/bootstrap.php
-Estos archivos aunque no es algo que nosotros revisemos habitualmente son vitales para el funcionamiento normal de symfony</description>
+      <description>Symfony crea a traves de recipes archivos basicos:
+ public/index.php config/bootstrap.php  Estos archivos aunque no es algo que nosotros revisemos habitualmente son vitales para el funcionamiento normal de symfony</description>
     </item>
     
     <item>
@@ -28,18 +28,6 @@ Estos archivos aunque no es algo que nosotros revisemos habitualmente son vitale
       
       <guid>/about/</guid>
       <description>Hola Mi nombre es david y soy el autor de este blog</description>
-    </item>
-    
-    <item>
-      <title>Hello Friend</title>
-      <link>/posts/hello/</link>
-      <pubDate>Fri, 25 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/hello/</guid>
-      <description>Texto contenido negrita ddd
- con marcas
- Lista ordenada
- uno dos  </description>
     </item>
     
   </channel>
