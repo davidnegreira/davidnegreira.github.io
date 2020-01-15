@@ -2,12 +2,14 @@
 <html lang="en">
 <head>
   
-    <title>Actualizar Symfony :: David&#39;s Site (as cousas de daviciño) — Un simple blog</title>
+    <title>Actualizar a Symfony 5. Flex Recipes :: David&#39;s Site (as cousas de daviciño) — Un simple blog</title>
   
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-<meta name="description" content="Symfony crea a traves de recipes archivos basicos:
- public/index.php config/bootstrap.php  Estos archivos aunque no es algo que nosotros revisemos habitualmente son vitales para el funcionamiento normal de symfony"/>
+<meta name="description" content="Symfony crea a traves de recipes archivos basicos como:
+ public/index.php config/bootstrap.php  Estos archivos aunque no es algo que nosotros revisemos habitualmente son vitales para el funcionamiento normal de symfony
+Para mantener estos archivos actualizados podemos 1. Manual Podemos revisar otro proyecto que creemos en blanco para tener versiones nuevas de estos ficheros e revisar proyectos de confianza online como symfony demo.
+Evidentemente esta forma es mas laboriosa ya que no solo tenemos que recordarlo sino que también hacer un copia y pega a mano, lo bueno es que podemos hacerlo sin miedo ya que si hemos seguido buenas practicas no tendríamos que tener ningún código propio en estos ficheros con lo que es seguro sobrescribirlos."/>
 <meta name="keywords" content=""/>
 <meta name="robots" content="noodp"/>
 <link rel="canonical" href="/posts/symfony-upgrade/" />
@@ -29,9 +31,11 @@
 
 
 <meta name="twitter:card" content="summary" />
-<meta name="twitter:title" content="Actualizar Symfony :: David&#39;s Site (as cousas de daviciño) — Un simple blog" />
-<meta name="twitter:description" content="Symfony crea a traves de recipes archivos basicos:
- public/index.php config/bootstrap.php  Estos archivos aunque no es algo que nosotros revisemos habitualmente son vitales para el funcionamiento normal de symfony" />
+<meta name="twitter:title" content="Actualizar a Symfony 5. Flex Recipes :: David&#39;s Site (as cousas de daviciño) — Un simple blog" />
+<meta name="twitter:description" content="Symfony crea a traves de recipes archivos basicos como:
+ public/index.php config/bootstrap.php  Estos archivos aunque no es algo que nosotros revisemos habitualmente son vitales para el funcionamiento normal de symfony
+Para mantener estos archivos actualizados podemos 1. Manual Podemos revisar otro proyecto que creemos en blanco para tener versiones nuevas de estos ficheros e revisar proyectos de confianza online como symfony demo.
+Evidentemente esta forma es mas laboriosa ya que no solo tenemos que recordarlo sino que también hacer un copia y pega a mano, lo bueno es que podemos hacerlo sin miedo ya que si hemos seguido buenas practicas no tendríamos que tener ningún código propio en estos ficheros con lo que es seguro sobrescribirlos." />
 <meta name="twitter:site" content="/" />
 <meta name="twitter:creator" content="David Negreira Rios" />
 <meta name="twitter:image" content="">
@@ -39,11 +43,13 @@
 
 <meta property="og:locale" content="en" />
 <meta property="og:type" content="article" />
-<meta property="og:title" content="Actualizar Symfony :: David&#39;s Site (as cousas de daviciño) — Un simple blog">
-<meta property="og:description" content="Symfony crea a traves de recipes archivos basicos:
- public/index.php config/bootstrap.php  Estos archivos aunque no es algo que nosotros revisemos habitualmente son vitales para el funcionamiento normal de symfony" />
+<meta property="og:title" content="Actualizar a Symfony 5. Flex Recipes :: David&#39;s Site (as cousas de daviciño) — Un simple blog">
+<meta property="og:description" content="Symfony crea a traves de recipes archivos basicos como:
+ public/index.php config/bootstrap.php  Estos archivos aunque no es algo que nosotros revisemos habitualmente son vitales para el funcionamiento normal de symfony
+Para mantener estos archivos actualizados podemos 1. Manual Podemos revisar otro proyecto que creemos en blanco para tener versiones nuevas de estos ficheros e revisar proyectos de confianza online como symfony demo.
+Evidentemente esta forma es mas laboriosa ya que no solo tenemos que recordarlo sino que también hacer un copia y pega a mano, lo bueno es que podemos hacerlo sin miedo ya que si hemos seguido buenas practicas no tendríamos que tener ningún código propio en estos ficheros con lo que es seguro sobrescribirlos." />
 <meta property="og:url" content="/posts/symfony-upgrade/" />
-<meta property="og:site_name" content="Actualizar Symfony" />
+<meta property="og:site_name" content="Actualizar a Symfony 5. Flex Recipes" />
 <meta property="og:image" content="">
 <meta property="og:image:width" content="2048">
 <meta property="og:image:height" content="1024">
@@ -111,7 +117,7 @@
     
 <div class="post">
   <h1 class="post-title">
-    <a href="/posts/symfony-upgrade/">Actualizar Symfony</a></h1>
+    <a href="/posts/symfony-upgrade/">Actualizar a Symfony 5. Flex Recipes</a></h1>
   <div class="post-meta">
       
     <span class="post-date">
@@ -130,14 +136,42 @@
   
 
   <div class="post-content">
-    <p>Symfony crea a traves de <em>recipes</em> archivos basicos:</p>
+    
+
+<p>Symfony crea a traves de <em>recipes</em> archivos basicos como:</p>
 
 <ul>
 <li>public/index.php</li>
 <li>config/bootstrap.php</li>
 </ul>
 
-<p>Estos archivos aunque no es algo que nosotros revisemos habitualmente son vitales para el funcionamiento normal de symfony</p>
+<p>Estos archivos aunque no es algo que nosotros revisemos habitualmente son <strong>vitales</strong> para el funcionamiento normal de symfony</p>
+
+<h5 id="para-mantener-estos-archivos-actualizados-podemos">Para mantener estos archivos actualizados podemos</h5>
+
+<h6 id="1-manual">1. Manual</h6>
+
+<p>Podemos revisar otro proyecto que creemos en blanco para tener versiones nuevas de estos ficheros e revisar proyectos de confianza online como <a href="https://www.google.es">symfony demo</a>.</p>
+
+<p>Evidentemente esta forma es mas laboriosa ya que no solo tenemos que recordarlo sino que también hacer un copia y pega a mano, lo bueno es que podemos hacerlo sin miedo ya que si hemos seguido buenas practicas no tendríamos que tener ningún código propio en estos ficheros con lo que es seguro sobrescribirlos.</p>
+
+<h6 id="2-con-flex">2. Con Flex</h6>
+
+<p>Desde la versíon de flex <strong>1.6.0</strong> tenemos una nueva funcionalidad a que se añade a todas las que ya nos ofrece flex :D. Ahora podemos ver si alguna recipe ha sufrido actualizaciones y aplicarlas de forma mucho mas sencilla</p>
+
+<pre><code class="language-bash">  composer recipes
+</code></pre>
+
+<p>Esto nos dará una lista de todas las recipes y de las que podemos actualizar: symfony/console (update available)</p>
+
+<p><img src="/img/result_recipes.png" alt="list" /></p>
+
+<p>A continución usando el comando:</p>
+
+<pre><code class="language-bash">  composer recipes:install symfony/console --force -v
+</code></pre>
+
+<p><img src="/img/result_update_recipe.png" alt="list" /></p>
 
   </div>
   
