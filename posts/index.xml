@@ -23,5 +23,15 @@
  uno dos  </description>
     </item>
     
+    <item>
+      <title></title>
+      <link>/posts/symfony-upgrade/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/symfony-upgrade/</guid>
+      <description>Actualizar Symfony symfony crea a traves de recipes archivos basicos + public/index.php + config/bootstrap.php
+Estos archivos aunque no es algo que nosotros revisemos habitualmente son vitales para el funcionamiento normal de symfony</description>
+    </item>
+    
   </channel>
 </rss>
