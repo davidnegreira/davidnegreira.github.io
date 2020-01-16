@@ -17,9 +17,9 @@
       <pubDate>Wed, 15 Jan 2020 00:00:00 +0000</pubDate>
       
       <guid>/posts/symfony-upgrade/</guid>
-      <description>Symfony crea a traves de recipes archivos basicos como:
+      <description>Symfony crea a traves de recipes archivos básicos como:
  public/index.php config/bootstrap.php  Estos archivos aunque no es algo que nosotros revisemos habitualmente son vitales para el funcionamiento normal de symfony
-Para mantener estos archivos actualizados podemos 1. Manual Podemos revisar otro proyecto que creemos en blanco para tener versiones nuevas de estos ficheros e revisar proyectos de confianza online como symfony demo.
+Para mantener estos archivos actualizados podemos 1. Manual Podemos revisar otro proyecto que creemos en blanco para tener versiones nuevas de estos ficheros o revisar proyectos de confianza online como symfony demo.
 Evidentemente esta forma es mas laboriosa ya que no solo tenemos que recordarlo sino que también hacer un copia y pega a mano, lo bueno es que podemos hacerlo sin miedo ya que si hemos seguido buenas practicas no tendríamos que tener ningún código propio en estos ficheros con lo que es seguro sobrescribirlos.</description>
     </item>
     
