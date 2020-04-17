@@ -6,10 +6,20 @@
     <description>Recent content on David&#39;s Site (as cousas de daviciño)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 15 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 17 Apr 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Actualizar librerías de twig</title>
+      <link>/posts/twig/</link>
+      <pubDate>Fri, 17 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/twig/</guid>
+      <description>Listado de packs y librerías Es muy probable que si habéis usado funciones de twig como localizeddate o cualquiera de las que nos permite añadir twig/extensions pues os encontrareis en una curiosa situación.
+Resulta que desde twig2 el twig/extensions está deprecated y en el 3 ya no se puede usar, el problema es que es muy probable que no os deis cuenta de este problema. En la mayoría de casos las dependencias que tendréis serán las siguientes:</description>
+    </item>
     
     <item>
       <title>Actualizar a Symfony 5. Flex Recipes</title>
@@ -21,16 +31,6 @@
  bin/index.php config/bootstrap.php  Estos archivos aunque no es algo que nosotros revisemos habitualmente son vitales para el funcionamiento normal de symfony
 Para mantener estos archivos actualizados podemos 1. Manual Podemos revisar otro proyecto que creemos en blanco para tener versiones nuevas de estos ficheros o revisar proyectos de confianza online como symfony demo.
 Evidentemente esta forma es mas laboriosa ya que no solo tenemos que recordarlo sino que también hacer un copia y pega a mano, lo bueno es que podemos hacerlo sin miedo ya que si hemos seguido buenas practicas no tendríamos que tener ningún código propio en estos ficheros con lo que es seguro sobrescribirlos.</description>
-    </item>
-    
-    <item>
-      <title>Actualizar librerías de twig</title>
-      <link>/posts/twig/</link>
-      <pubDate>Wed, 15 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/twig/</guid>
-      <description>Listado de packs y librerías Es muy probable que si habéis usado funciones de twig como localizeddate o cualquiera de las que nos permite añadir twig/extensions pues os encontrareis en una curiosa situación.
-Resulta que desde twig2 el twig/extensions está deprecated y en el 3 ya no se puede usar, el problema es que es muy probable que no os deis cuenta de este problema. En la mayoría de casos las dependencias que tendréis serán las siguientes:</description>
     </item>
     
     <item>
