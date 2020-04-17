@@ -24,6 +24,16 @@ Evidentemente esta forma es mas laboriosa ya que no solo tenemos que recordarlo 
     </item>
     
     <item>
+      <title>Actualizar librerías de twig</title>
+      <link>/posts/twig/</link>
+      <pubDate>Wed, 15 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/twig/</guid>
+      <description>Listado de packs y librerías Es muy probable que si habéis usado funciones de twig como localizeddate o cualquiera de las que nos permite añadir twig/extensions pues os encontrareis en una curiosa situación.
+Resulta que desde twig2 el twig/extensions está deprecated y en el 3 ya no se puede usar, el problema es que es muy probable que no os deis cuenta de este problema. En la mayoría de casos las dependencias que tendréis serán las siguientes:</description>
+    </item>
+    
+    <item>
       <title>Acerca De</title>
       <link>/about/</link>
       <pubDate>Thu, 05 Dec 2019 00:00:00 +0000</pubDate>
